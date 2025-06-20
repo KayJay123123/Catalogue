@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tool Catalogue</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.2/papaparse.min.js"></script>
+</head>
+<body>
+  <div class="header">
+    <h1>Catalogue Viewer</h1>
+    <label>Category:
+      <select id="categorySelect">
+        <option>Loading...</option>
+      </select>
+    </label>
+    <input type="text" id="searchInput" placeholder="Search item name..." />
+  </div>
+  <div id="catalogueContainer"></div>
+  <script src="script.js"></script>
+</body>
+</html>

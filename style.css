@@ -1,0 +1,37 @@
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f4f4f4;
+}
+.header {
+  margin-bottom: 20px;
+}
+.item-block {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 16px;
+  margin-bottom: 20px;
+}
+.item-block img {
+  width: 120px;
+  height: auto;
+  object-fit: contain;
+}
+.item-block h3 {
+  margin: 10px 0 5px;
+}
+.item-block p {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+.item-block table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.item-block th, .item-block td {
+  border: 1px solid #ccc;
+  padding: 6px 8px;
+  text-align: left;
+}
